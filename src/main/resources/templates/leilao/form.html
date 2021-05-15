@@ -1,16 +1,18 @@
 <html>
+<meta charset="UTF-8">
+
 	<head th:replace="~{base :: head}"></head>
 	<body>
 		<div th:replace="~{base :: logo}"></div>
 		
 		<div class="container">
-			<div th:replace="~{base :: titulo('Novo Leilão')}"></div>
+			<div th:replace="~{base :: titulo('Novo LeilÃ£o')}"></div>
 			<form th:action="@{/leiloes}" method="post" th:object="${leilao}" class="card-body">
 				<input th:field="*{id}" type="hidden">
 		
 				<div class="form-group">
 					<label for="nome">Nome:</label>
-					<input th:field="*{nome}" th:errorclass="is-invalid" class="form-control" placeholder="Nome do leilão">
+					<input th:field="*{nome}" th:errorclass="is-invalid" class="form-control" placeholder="Nome do leilÃ£o">
 					<small>Coloque um nome expressivo</small>
 					<p class="alert alert-danger" th:if="${#fields.hasErrors('nome')}" th:errors="*{nome}">
 				</div>

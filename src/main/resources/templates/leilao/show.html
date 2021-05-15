@@ -1,10 +1,12 @@
 <html>
+<meta charset="UTF-8">
+
 	<head th:replace="~{base :: head}"></head>
 	<body>
 		<div th:replace="~{base :: logo}"></div>
 
 		<div class="container">
-			<div th:replace="~{base :: titulo('Dados do Leilão')}"></div>
+			<div th:replace="~{base :: titulo('Dados do LeilÃ£o')}"></div>
 
 			<div class="alert alert-primary" role="alert" th:if="${message}">
 				<span th:text="${message}"></span>

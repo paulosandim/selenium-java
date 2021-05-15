@@ -1,4 +1,6 @@
 <html>
+<meta charset="UTF-8">
+
 	<head th:replace="~{base :: head}"></head>
 
 	<body>
@@ -8,13 +10,13 @@
 			<div th:replace="~{base :: titulo('Login')}"></div>
 
 			<div th:if="${param.error}" class="alert alert-danger" role="alert">   
-				Usu�rio e senha inv�lidos.
+				Usuário e senha inválidos.
 			</div>
 
 			<div class="card mb-3">
 				<form id="login-form" th:action="@{/login}" class="card-body" method="post">
 					<div class="form-group">
-						<label for="username">Usu�rio</label>
+						<label for="username">Usuário</label>
 						<input id="username" name="username"  class="form-control" placeholder="usuário" autofocus="autofocus">
 					</div>
 
