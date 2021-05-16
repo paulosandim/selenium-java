@@ -10,20 +10,27 @@ Repositório dos Testes Automatizados em Java e Selenium para o Projeto Leilão 
 * Maven e JUnit ativos
 
 ### Instalar as dependências do Maven
+
 `
 ALT+F5
 `
 
 ### Executar localmente (minha máquina)
-* Subir o Projeto Leilão localmente (executar com Java Application)
+
+Subir o Projeto Leilão localmente (executar com Java Application)
+
 `
 LeilãoApplication.java
 `
-* Ele roda localmente na porta
+
+Ele roda localmente na porta
+
 `
 http://localhost:8080/
 `
-* Executar o JUnit sobre a pasta
+
+Executar o JUnit sobre a pasta
+
 `
 src/test/java
 `
