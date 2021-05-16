@@ -15,7 +15,15 @@ ALT+F5
 `
 
 ### Executar localmente (minha máquina)
-Executar o JUnit sobre a pasta
+* Subir o Projeto Leilão localmente (executar com Java Application)
+`
+LeilãoApplication.java
+`
+* Ele roda localmente na porta
+`
+http://localhost:8080/
+`
+* Executar o JUnit sobre a pasta
 `
 src/test/java
 `
